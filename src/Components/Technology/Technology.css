@@ -11,7 +11,11 @@
   letter-spacing: 1.88px;
   opacity: 1;
 }
-
+@media (min-width: 992px) {
+  .d-nine {
+    display: flex;
+  }
+}
 .container > p {
   margin: 20px auto 0;
   font-size: 22px;

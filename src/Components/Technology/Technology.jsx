@@ -12,10 +12,10 @@ const Technology = () => {
           I have been working with the Technology so far
         </p>
       </div>
-      <div className="flex justify-center">
-        <div className="flex justify-center items-center gap-10">
-          <div>
-            <div className="bg-gray-300 p-6 h-24 flex justify-center items-center rounded-lg">
+      <div className=" justify-center">
+        <div className="lg:flex justify-center items-center  gap-10">
+          <div className=" flex items-center justify-center mb-5">
+            <div className="bg-gray-300 px-16 lg:px-6 h-24  flex justify-center items-center rounded-lg">
               {/* <img
                 className="tech-img "
                 src="https://paperpillar.com/assets/images/hoopsai.png"
@@ -24,11 +24,11 @@ const Technology = () => {
               <i class="fab p-6 fa-js tech-img text-5xl text-center text-yellow-500"></i>
             </div>
           </div>
-          <div className="flex flex-col gap-5">
-            <div className="bg-gray-300 p-6 h-24 flex justify-center items-center rounded-lg">
+          <div className="flex flex-col items-center flex-wrap gap-5 mb-5">
+            <div className="bg-gray-300 px-20 lg:px-6   h-24 flex justify-center items-center rounded-lg">
               <img className="tech-img " src={express} alt="" />
             </div>
-            <div className="bg-gray-300 p-6 h-24 flex justify-center items-center rounded-lg">
+            <div className="bg-gray-300 px-24 lg:px-6 h-24 flex justify-center items-center rounded-lg">
               {/* <img className="tech-img" src={mongodb} alt="" /> */}
               <i className="text-5xl text-green-700 p-6">
                 <svg
@@ -48,14 +48,14 @@ const Technology = () => {
               </i>
             </div>
           </div>
-          <div className="flex flex-col gap-5">
-            <div className="bg-gray-300 p-6 h-24 flex justify-center items-center rounded-lg">
+          <div className="flex items-center flex-col gap-5 mb-5">
+            <div className="bg-gray-300 px-32 lg:px-6 h-24 flex justify-center items-center rounded-lg">
               <i class="fab fa-node text-5xl p-6 text-center text-green-600"></i>
             </div>
-            <div className="bg-gray-300 p-6 h-24 flex justify-center items-center rounded-lg">
+            <div className="bg-gray-300 px-40 lg:px-6  h-24 flex justify-center items-center rounded-lg">
               <i class="fab fa-react p-6 text-5xl text-center text-blue-500"></i>
             </div>
-            <div className="bg-gray-300 p-6 h-24 flex justify-center items-center rounded-lg">
+            <div className="bg-gray-300 px-32 lg:px-6 h-24 flex justify-center items-center rounded-lg">
               <img
                 className="tech-img"
                 src="https://img.icons8.com/color/90/000000/firebase.png"
@@ -63,8 +63,8 @@ const Technology = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col gap-5">
-            <div className="bg-gray-300 p-6 h-24 flex justify-center items-center rounded-lg">
+          <div className="flex items-center flex-col gap-5 mb-5">
+            <div className="bg-gray-300 px-24 lg:px-6 h-24 flex justify-center items-center rounded-lg">
               {/* <img
                 className="tech-img"
                 src="https://paperpillar.com/assets/images/hoopsai.png"
@@ -72,7 +72,7 @@ const Technology = () => {
               /> */}
               <i class="fab fa-bootstrap p-6 text-5xl text-blue-600 text-center"></i>
             </div>
-            <div className="bg-gray-300 p-6 h-24 flex justify-center items-center rounded-lg">
+            <div className="bg-gray-300 px-20 lg:px-6 h-24 flex justify-center items-center rounded-lg">
               {/* <img
                 className="tech-img"
                 src="https://paperpillar.com/assets/images/hoopsai.png"
@@ -97,8 +97,8 @@ const Technology = () => {
               </i>
             </div>
           </div>
-          <div>
-            <div className="bg-gray-300 p-6 h-24 flex justify-center items-center rounded-lg">
+          <div className="flex items-center justify-center">
+            <div className="bg-gray-300 px-16 lg:px-6 h-24 flex justify-center items-center rounded-lg">
               {/* <img
                 className="tech-img"
                 src="https://paperpillar.com/assets/images/hoopsai.png"
