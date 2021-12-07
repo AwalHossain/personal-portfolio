@@ -1,0 +1,15 @@
+.card {
+  padding: 20px 40px 40px;
+  margin: 30px;
+  background-color: white;
+  border-radius: 10px;
+  border-bottom: 5px solid rgb(151, 146, 146);
+  transition: all 0.4s;
+  text-align: left;
+}
+.experience-card:hover {
+  border-bottom: 5px solid coral;
+}
+.card:hover {
+  border-bottom: 5px solid hotpink;
+}
